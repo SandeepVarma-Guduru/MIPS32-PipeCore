@@ -25,7 +25,6 @@ reg TAKEN_BRANCH;
 
 // IF STAGE
 
-
 always @(posedge clk1)  
 begin
   if(HALTED==0)
